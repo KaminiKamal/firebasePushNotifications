@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "hosting": "castiko-pushnotification",
+    "default": "castiko-pushnotification"
+  }
+}
