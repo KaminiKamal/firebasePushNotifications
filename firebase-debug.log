@@ -1,0 +1,272 @@
+[debug] [2018-06-11T15:23:10.692Z] ----------------------------------------------------------------------
+[debug] [2018-06-11T15:23:10.700Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8085
+[debug] [2018-06-11T15:23:10.702Z] CLI Version:   3.18.5
+[debug] [2018-06-11T15:23:10.702Z] Platform:      win32
+[debug] [2018-06-11T15:23:10.702Z] Node Version:  v6.11.2
+[debug] [2018-06-11T15:23:10.704Z] Time:          Mon Jun 11 2018 20:53:10 GMT+0530 (India Standard Time)
+[debug] [2018-06-11T15:23:10.704Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-11T15:23:10.744Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-11T15:23:10.745Z] > authorizing via signed-in user
+[debug] [2018-06-11T15:23:10.751Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-11T15:23:10.752Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eKk1xEds4GednJf4JoBuKOswB0fk8rfiHL9fFV7PRc8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 11 2018 20:53:10 GMT+0530 (India Standard Time)
+[debug] [2018-06-11T15:23:11.114Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-11T15:23:11.170Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Mon Jun 11 2018 20:53:11 GMT+0530 (India Standard Time)
+[debug] [2018-06-11T15:23:12.325Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-11T15:23:12.328Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Mon Jun 11 2018 20:53:12 GMT+0530 (India Standard Time)
+[debug] [2018-06-11T15:23:13.310Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-11T15:23:13.314Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Mon Jun 11 2018 20:53:13 GMT+0530 (India Standard Time)
+[debug] [2018-06-11T15:23:15.026Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-11T15:23:15.047Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Mon Jun 11 2018 20:53:15 GMT+0530 (India Standard Time)
+[debug] [2018-06-11T15:23:15.858Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:8085
+
+[debug] [2018-06-12T02:33:59.084Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T02:33:59.093Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8080
+[debug] [2018-06-12T02:33:59.095Z] CLI Version:   3.18.5
+[debug] [2018-06-12T02:33:59.095Z] Platform:      win32
+[debug] [2018-06-12T02:33:59.095Z] Node Version:  v6.11.2
+[debug] [2018-06-12T02:33:59.097Z] Time:          Tue Jun 12 2018 08:03:59 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:33:59.098Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T02:33:59.138Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T02:33:59.139Z] > authorizing via signed-in user
+[debug] [2018-06-12T02:33:59.146Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-12T02:33:59.147Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eKk1xEds4GednJf4JoBuKOswB0fk8rfiHL9fFV7PRc8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 12 2018 08:03:59 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:33:59.534Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T02:33:59.578Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Tue Jun 12 2018 08:03:59 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:34:01.003Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T02:34:01.006Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Tue Jun 12 2018 08:04:01 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:34:02.048Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T02:34:02.053Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Tue Jun 12 2018 08:04:02 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:34:03.774Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-12T02:34:03.790Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Tue Jun 12 2018 08:04:03 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:34:04.759Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:8080
+
+[debug] [2018-06-12T02:50:20.182Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T02:50:20.190Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8081
+[debug] [2018-06-12T02:50:20.191Z] CLI Version:   3.18.5
+[debug] [2018-06-12T02:50:20.191Z] Platform:      win32
+[debug] [2018-06-12T02:50:20.191Z] Node Version:  v6.11.2
+[debug] [2018-06-12T02:50:20.194Z] Time:          Tue Jun 12 2018 08:20:20 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:50:20.194Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T02:50:20.232Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T02:50:20.233Z] > authorizing via signed-in user
+[debug] [2018-06-12T02:50:20.240Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Tue Jun 12 2018 08:20:20 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T02:50:40.613Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-06-12T03:26:22.480Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T03:26:22.487Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8080
+[debug] [2018-06-12T03:26:22.489Z] CLI Version:   3.18.5
+[debug] [2018-06-12T03:26:22.489Z] Platform:      win32
+[debug] [2018-06-12T03:26:22.489Z] Node Version:  v6.11.2
+[debug] [2018-06-12T03:26:22.491Z] Time:          Tue Jun 12 2018 08:56:22 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T03:26:22.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T03:26:22.528Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T03:26:22.530Z] > authorizing via signed-in user
+[debug] [2018-06-12T03:26:22.536Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-12T03:26:22.537Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eKk1xEds4GednJf4JoBuKOswB0fk8rfiHL9fFV7PRc8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 12 2018 08:56:22 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T03:26:22.905Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T03:26:22.996Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Tue Jun 12 2018 08:56:22 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T03:26:24.506Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T03:26:24.511Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Tue Jun 12 2018 08:56:24 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T03:26:25.629Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T03:26:25.635Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Tue Jun 12 2018 08:56:25 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T03:26:27.479Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-12T03:26:27.501Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Tue Jun 12 2018 08:56:27 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T03:26:28.211Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:8080
+
+[debug] [2018-06-12T21:11:57.870Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T21:11:57.886Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8080
+[debug] [2018-06-12T21:11:57.888Z] CLI Version:   3.18.5
+[debug] [2018-06-12T21:11:57.889Z] Platform:      win32
+[debug] [2018-06-12T21:11:57.889Z] Node Version:  v6.11.2
+[debug] [2018-06-12T21:11:57.892Z] Time:          Wed Jun 13 2018 02:41:57 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:11:57.892Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T21:11:58.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T21:11:58.062Z] > authorizing via signed-in user
+[debug] [2018-06-12T21:11:58.073Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-12T21:11:58.075Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eKk1xEds4GednJf4JoBuKOswB0fk8rfiHL9fFV7PRc8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jun 13 2018 02:41:58 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:11:58.474Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:11:58.517Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 02:41:58 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:12:00.782Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:12:00.788Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Wed Jun 13 2018 02:42:00 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:12:01.727Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:12:01.732Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 02:42:01 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:12:03.484Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-12T21:12:03.494Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Wed Jun 13 2018 02:42:03 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:12:04.419Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:8080
+
+[info] Shutting down...
+[debug] [2018-06-12T21:15:36.804Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T21:15:36.821Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 8080
+[debug] [2018-06-12T21:15:36.824Z] CLI Version:   3.18.5
+[debug] [2018-06-12T21:15:36.824Z] Platform:      win32
+[debug] [2018-06-12T21:15:36.824Z] Node Version:  v6.11.2
+[debug] [2018-06-12T21:15:36.830Z] Time:          Wed Jun 13 2018 02:45:36 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:15:36.830Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T21:15:36.944Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T21:15:36.946Z] > authorizing via signed-in user
+[debug] [2018-06-12T21:15:36.954Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 02:45:36 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:15:38.244Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:15:38.248Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Wed Jun 13 2018 02:45:38 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:15:39.461Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:15:39.467Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 02:45:39 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:15:40.965Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-12T21:15:40.992Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Wed Jun 13 2018 02:45:40 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:15:41.700Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:8080
+
+[debug] [2018-06-12T21:19:28.364Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T21:19:28.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 9090
+[debug] [2018-06-12T21:19:28.377Z] CLI Version:   3.18.5
+[debug] [2018-06-12T21:19:28.377Z] Platform:      win32
+[debug] [2018-06-12T21:19:28.378Z] Node Version:  v6.11.2
+[debug] [2018-06-12T21:19:28.380Z] Time:          Wed Jun 13 2018 02:49:28 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:19:28.381Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T21:19:28.428Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T21:19:28.430Z] > authorizing via signed-in user
+[debug] [2018-06-12T21:19:28.439Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 02:49:28 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:19:29.919Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:19:29.925Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Wed Jun 13 2018 02:49:29 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:19:30.904Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:19:30.910Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 02:49:30 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:19:32.841Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-12T21:19:32.868Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Wed Jun 13 2018 02:49:32 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:19:34.142Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:9090
+
+[debug] [2018-06-12T21:39:03.224Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T21:39:03.236Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SERVE\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 9090
+[debug] [2018-06-12T21:39:03.238Z] CLI Version:   3.18.5
+[debug] [2018-06-12T21:39:03.238Z] Platform:      win32
+[debug] [2018-06-12T21:39:03.238Z] Node Version:  v6.11.2
+[debug] [2018-06-12T21:39:03.243Z] Time:          Wed Jun 13 2018 03:09:03 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:39:03.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T21:39:03.342Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T21:39:03.345Z] > authorizing via signed-in user
+[debug] [2018-06-12T21:39:03.353Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 03:09:03 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:39:05.069Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:39:05.075Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/castiko-pushnotification/tokens  
+  
+ Wed Jun 13 2018 03:09:05 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:39:06.692Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T21:39:06.698Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/castiko-pushnotification  
+  
+ Wed Jun 13 2018 03:09:06 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:39:08.200Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\push-notifications\messaging\firebasePushNotifications'...
+[info] 
+[debug] [2018-06-12T21:39:08.227Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/478311376036/clients/_:getWebAppConfig  
+  
+ Wed Jun 13 2018 03:09:08 GMT+0530 (India Standard Time)
+[debug] [2018-06-12T21:39:08.898Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:9090
+
